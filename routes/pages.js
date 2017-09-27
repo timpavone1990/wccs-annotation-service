@@ -7,7 +7,8 @@ const logger = require("../lib/Logger");
 
 const unirest = require("unirest");
 const httpRequestExecutor = new (require("../lib/HttpRequestExecutor"))(unirest);
-const annotationRepository = new (require("../lib/AnnotationRepository"))(httpRequestExecutor);
+const annotationsAssembler = require("../lib/AnnotationsAssembler");
+const annotationRepository = new (require("../lib/AnnotationRepository"))(httpRequestExecutor, annotationsAssembler);
 
 router.get("/:pageId", (request, response) => {
     response.json({ "name": "Annotator Store API", "version": "2.0.0" });
