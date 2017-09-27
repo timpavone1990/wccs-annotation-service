@@ -25,3 +25,30 @@ publishing {
         }
     }
 }
+
+task buildDev(type:Exec) {
+    executable "docker-compose"
+    args = ["--file", "./docker-compose-dev.yml", "--project-name", "wccs", "build"]
+}
+
+task upDev(type:Exec) {
+    executable "docker-compose"
+    args = ["--file", "./docker-compose-dev.yml", "--project-name", "wccs", "up", "-d"]
+}
+
+task restartDev(type:Exec) {
+    executable "docker-compose"
+    args = ["--file", "./docker-compose-dev.yml", "--project-name", "wccs", "restart"]
+}
+
+task downDev(type:Exec) {
+    executable "docker-compose"
+    args = ["--file", "./docker-compose-dev.yml", "--project-name", "wccs", "down"]
+}
+
+task npmTest(type:Exec) {
+    executable "npm"
+    args = ["test"]
+}
+
+check.dependsOn npmTest
