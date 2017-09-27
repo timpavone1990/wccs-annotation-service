@@ -1,0 +1,7 @@
+FROM node:onbuild
+LABEL maintainer="Tim Gremplewski <tim.gremplewski@gmail.com>"
+
+EXPOSE 16612 9229
+
+WORKDIR /usr/src/app
+CMD [ "npm", "run-script", "dev" ]

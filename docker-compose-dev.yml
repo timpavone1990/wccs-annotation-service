@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  annotation-service:
+      build:
+        context: .
+        dockerfile: Dockerfile-dev
+      image: wccs/annotation-service:dev
+      ports:
+        - "16612:16612"
+        - "9229:9229"
+      volumes:
+        - ./:/usr/src/app:ro
