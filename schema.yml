@@ -1,0 +1,75 @@
+# DRAFT
+openapi: "3.0.0"
+info:
+  contact:
+    name: "Tim Gremplewski"
+    email: "tim.gremplewski@gmail.com"
+  title: "WCCS Annotation Service"
+  version: "1.0.0"
+paths:
+  /pages/{pageId}:
+    parameters:
+      - name: pageId
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      summary: "Returns the Annotator Storage API version"
+      responses:
+        200:
+          description: "The Annotator Storage API version"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnnotatorStoreAPI"
+  /pages/{pageId}/annotations:
+    parameters:
+      - name: pageId
+        in: path
+        required: true
+        schema:
+          type: string
+    get:
+      summary: "Returns all annotations of a page"
+      responses:
+        200:
+          description: "All annotations of a page"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnnotatorStoreAPI"
+  /{pageId}/annotations/{annotationId}:
+    parameters:
+      - name: pageId
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: annotationId
+        in: path
+        required: true
+        schema:
+          type: string
+components:
+  schemas:
+    AnnotatorStoreAPI:
+      properties:
+        name:
+          type: string
+        version:
+          type: string
+      required:
+        - name
+        - version
+      example: { "name": "Annotator Store API", "version": "2.0.0" }
+    Annotation:
+      properties:
+        id:
+          type: string
+        annotator_schema_version:
+          type: string
+        text:
+          type: string
+        user:
+          type: string
