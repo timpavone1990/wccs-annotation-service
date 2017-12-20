@@ -1,0 +1,163 @@
+[
+  {
+    "annotator_schema_version": "v1.0",
+    "id": "cHJvcGVydGllczpsZXZlbDFDb250ZW50OnByb3BlcnRpZXM6aGVhZGluZw==",
+    "permissions": {
+      "admin": [
+        "wccs"
+      ]
+    },
+    "ranges": [
+      {
+        "end": "/div[1]/section[2]",
+        "endOffset": 259,
+        "start": "/div[1]/section[2]",
+        "startOffset": 207
+      }
+    ],
+    "text": "heading: Text",
+    "user": "wccs",
+    "wccs": {
+      "class": "Text",
+      "featureKind": "property"
+    }
+  },
+  {
+    "annotator_schema_version": "v1.0",
+    "id": "cHJvcGVydGllczpsZXZlbDFDb250ZW50OnByb3BlcnRpZXM6dGVhbUxpc3Q6MDpwcm9wZXJ0aWVzOm5hbWU=",
+    "permissions": {
+      "admin": [
+        "wccs"
+      ]
+    },
+    "ranges": [
+      {
+        "end": "/div[1]/section[2]/div[1]/div[1]/div[2]/div[1]",
+        "endOffset": 117,
+        "start": "/div[1]/section[2]/div[1]/div[1]/div[2]/div[1]",
+        "startOffset": 93
+      }
+    ],
+    "text": "name: Text",
+    "user": "wccs",
+    "wccs": {
+      "class": "Text",
+      "featureKind": "property"
+    }
+  },
+  {
+    "annotator_schema_version": "v1.0",
+    "id": "cHJvcGVydGllczpsZXZlbDFDb250ZW50OnByb3BlcnRpZXM6dGVhbUxpc3Q6MDpyZWZlcmVuY2VzOm51bWJlcg==",
+    "permissions": {
+      "admin": [
+        "wccs"
+      ]
+    },
+    "ranges": [
+      {
+        "end": "/div[1]/section[2]/div[1]/div[1]/div[2]/div[1]",
+        "endOffset": 144,
+        "start": "/div[1]/section[2]/div[1]/div[1]/div[2]/div[1]",
+        "startOffset": 124
+      }
+    ],
+    "text": "number: StupidReference",
+    "user": "wccs",
+    "wccs": {
+      "class": "StupidReference",
+      "featureKind": "reference"
+    }
+  },
+  {
+    "annotator_schema_version": "v1.0",
+    "id": "cHJvcGVydGllczpsZXZlbDFDb250ZW50OnByb3BlcnRpZXM6dGVhbUxpc3Q6MTpwcm9wZXJ0aWVzOm5hbWU=",
+    "permissions": {
+      "admin": [
+        "wccs"
+      ]
+    },
+    "ranges": [
+      {
+        "end": "/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]",
+        "endOffset": 112,
+        "start": "/div[1]/section[2]/div[1]/div[1]/div[2]/div[2]",
+        "startOffset": 95
+      }
+    ],
+    "text": "name: Text",
+    "user": "wccs",
+    "wccs": {
+      "class": "Text",
+      "featureKind": "property"
+    }
+  },
+  {
+    "annotator_schema_version": "v1.0",
+    "id": "cHJvcGVydGllczpsZXZlbDFDb250ZW50OnJlZmVyZW5jZXM6bXlSZWZlcmVuY2U=",
+    "permissions": {
+      "admin": [
+        "wccs"
+      ]
+    },
+    "ranges": [
+      {
+        "end": "/div[1]/section[2]",
+        "endOffset": 12,
+        "start": "/div[1]/section[2]",
+        "startOffset": 1
+      }
+    ],
+    "text": "myReference: StupidReference",
+    "user": "wccs",
+    "wccs": {
+      "class": "StupidReference",
+      "featureKind": "reference"
+    }
+  },
+  {
+    "annotator_schema_version": "v1.0",
+    "id": "cHJvcGVydGllczpwb3J0YWw=",
+    "permissions": {
+      "admin": [
+        "wccs"
+      ]
+    },
+    "ranges": [
+      {
+        "end": "/",
+        "endOffset": 67,
+        "start": "/",
+        "startOffset": 42
+      }
+    ],
+    "text": "portal: Text",
+    "user": "wccs",
+    "wccs": {
+      "class": "Text",
+      "featureKind": "property"
+    }
+  },
+  {
+    "annotator_schema_version": "v1.0",
+    "id": "cmVmZXJlbmNlczpkYXZpbkFra28=",
+    "permissions": {
+      "admin": [
+        "wccs"
+      ]
+    },
+    "ranges": [
+      {
+        "end": "/",
+        "endOffset": 663,
+        "start": "/",
+        "startOffset": 653
+      }
+    ],
+    "text": "davinAkko: StupidReference",
+    "user": "wccs",
+    "wccs": {
+      "class": "StupidReference",
+      "featureKind": "reference"
+    }
+  }
+]
