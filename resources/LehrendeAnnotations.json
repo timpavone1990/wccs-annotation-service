@@ -5,6 +5,9 @@
     "permissions": {
       "admin": [
         "wccs"
+      ],
+      "delete": [
+        "wccs"
       ]
     },
     "ranges": [
@@ -27,6 +30,9 @@
     "id": "Y29udGVudHM6bGV2ZWwxQ29udGVudDpjb250ZW50czp0ZWFtTGlzdDowOmNvbnRlbnRzOm5hbWU=",
     "permissions": {
       "admin": [
+        "wccs"
+      ],
+      "delete": [
         "wccs"
       ]
     },
@@ -51,6 +57,9 @@
     "permissions": {
       "admin": [
         "wccs"
+      ],
+      "delete": [
+        "wccs"
       ]
     },
     "ranges": [
@@ -73,6 +82,9 @@
     "id": "Y29udGVudHM6bGV2ZWwxQ29udGVudDpjb250ZW50czp0ZWFtTGlzdDoxOmNvbnRlbnRzOm5hbWU=",
     "permissions": {
       "admin": [
+        "wccs"
+      ],
+      "delete": [
         "wccs"
       ]
     },
@@ -97,6 +109,9 @@
     "permissions": {
       "admin": [
         "wccs"
+      ],
+      "delete": [
+        "wccs"
       ]
     },
     "ranges": [
@@ -120,6 +135,9 @@
     "permissions": {
       "admin": [
         "wccs"
+      ],
+      "delete": [
+        "wccs"
       ]
     },
     "ranges": [
@@ -142,6 +160,9 @@
     "id": "cmVmZXJlbmNlczpkYXZpbkFra28=",
     "permissions": {
       "admin": [
+        "wccs"
+      ],
+      "delete": [
         "wccs"
       ]
     },
