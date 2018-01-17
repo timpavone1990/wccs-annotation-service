@@ -1,7 +1,7 @@
 [
   {
     "annotator_schema_version": "v1.0",
-    "id": "cHJvcGVydGllczpsZXZlbDFDb250ZW50OnByb3BlcnRpZXM6aGVhZGluZw==",
+    "id": "Y29udGVudHM6bGV2ZWwxQ29udGVudDpjb250ZW50czpoZWFkaW5n",
     "permissions": {
       "admin": [
         "wccs"
@@ -19,12 +19,12 @@
     "user": "wccs",
     "wccs": {
       "class": "Text",
-      "featureKind": "property"
+      "featureKind": "content"
     }
   },
   {
     "annotator_schema_version": "v1.0",
-    "id": "cHJvcGVydGllczpsZXZlbDFDb250ZW50OnByb3BlcnRpZXM6dGVhbUxpc3Q6MDpwcm9wZXJ0aWVzOm5hbWU=",
+    "id": "Y29udGVudHM6bGV2ZWwxQ29udGVudDpjb250ZW50czp0ZWFtTGlzdDowOmNvbnRlbnRzOm5hbWU=",
     "permissions": {
       "admin": [
         "wccs"
@@ -42,12 +42,12 @@
     "user": "wccs",
     "wccs": {
       "class": "Text",
-      "featureKind": "property"
+      "featureKind": "content"
     }
   },
   {
     "annotator_schema_version": "v1.0",
-    "id": "cHJvcGVydGllczpsZXZlbDFDb250ZW50OnByb3BlcnRpZXM6dGVhbUxpc3Q6MDpyZWZlcmVuY2VzOm51bWJlcg==",
+    "id": "Y29udGVudHM6bGV2ZWwxQ29udGVudDpjb250ZW50czp0ZWFtTGlzdDowOnJlZmVyZW5jZXM6bnVtYmVy",
     "permissions": {
       "admin": [
         "wccs"
@@ -70,7 +70,7 @@
   },
   {
     "annotator_schema_version": "v1.0",
-    "id": "cHJvcGVydGllczpsZXZlbDFDb250ZW50OnByb3BlcnRpZXM6dGVhbUxpc3Q6MTpwcm9wZXJ0aWVzOm5hbWU=",
+    "id": "Y29udGVudHM6bGV2ZWwxQ29udGVudDpjb250ZW50czp0ZWFtTGlzdDoxOmNvbnRlbnRzOm5hbWU=",
     "permissions": {
       "admin": [
         "wccs"
@@ -88,12 +88,12 @@
     "user": "wccs",
     "wccs": {
       "class": "Text",
-      "featureKind": "property"
+      "featureKind": "content"
     }
   },
   {
     "annotator_schema_version": "v1.0",
-    "id": "cHJvcGVydGllczpsZXZlbDFDb250ZW50OnJlZmVyZW5jZXM6bXlSZWZlcmVuY2U=",
+    "id": "Y29udGVudHM6bGV2ZWwxQ29udGVudDpyZWZlcmVuY2VzOm15UmVmZXJlbmNl",
     "permissions": {
       "admin": [
         "wccs"
@@ -116,7 +116,7 @@
   },
   {
     "annotator_schema_version": "v1.0",
-    "id": "cHJvcGVydGllczpwb3J0YWw=",
+    "id": "Y29udGVudHM6cG9ydGFs",
     "permissions": {
       "admin": [
         "wccs"
@@ -134,7 +134,7 @@
     "user": "wccs",
     "wccs": {
       "class": "Text",
-      "featureKind": "property"
+      "featureKind": "content"
     }
   },
   {
