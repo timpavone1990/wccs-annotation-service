@@ -193,5 +193,5 @@ module.exports = {
     },
     "status": "Classified",
     "class": "Teachers",
-    "url": "file:///home/tim/Projekte/Masterarbeit/WebContentClassificationSystem/wcts-typing-engine/resources/babw/lehrende"
+    "url": "http://www.fernuni-hagen.de/KSW/portale/babw/einstieg/lehrende-und-betreuende-im-b-a-bildungswissenschaft/"
 };
